@@ -1,0 +1,142 @@
+body{
+    background-color: #080a10; 
+    color: #ffffff;
+    min-height: 100vh;
+    padding: 20px 40px;
+}
+header{
+    border: 2px solid white;
+    border-radius: 20px;
+    background-color: #01091d ;
+    box-shadow: 5px 5px 50px #142040;
+    height: 120px;
+    
+}
+img{
+    width: 8%;
+    margin-top:10px ;
+    margin-left:10px ;
+}
+h1{
+    position: relative;
+    left: 130px;
+    bottom: 100px;
+}
+.p2{
+    position: relative;
+    left: 130px;
+    bottom: 130px;  
+    color: rgba(230, 238, 238, 0.653); 
+}
+nav{
+    border:none;
+    width: 30%;
+    float: right;
+    position: relative;
+    bottom: 220px;
+}
+a{
+    text-decoration: none;
+    color:rgba(230, 238, 238, 0.653) ;
+    margin: 10px;
+    border: none;
+    position: relative;
+    left: 38px;
+    font-size: 25px;
+    transition: 0.2s;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bolder;
+    font-style: italic;
+}
+a:hover{
+    color: white;
+}
+.a1{
+    position: relative;
+    top: 100px;
+}
+.s1{
+    border: none;
+    width: 50%;
+    font-size: 60px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bolder;
+    font-style: italic;
+    text-transform: capitalize;
+    color: azure;
+    bottom: 50px;
+}
+.p1{
+  
+    color: rgba(230, 238, 238, 0.653);
+    font-size: 20px;
+}
+.a2{
+    border:none ;
+    width: 45%;
+    float: right;
+    position: relative;
+    bottom: 420px;
+    padding: 20px;
+}
+div{
+    border: 3px solid white;
+    padding: 40px;
+    width: 20%;
+    border-radius: 20px;
+    background-color: #01091d;
+    font-size: 25px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bolder;
+    font-style: italic;
+    text-transform: capitalize;
+    transition: 1s;
+}
+div:hover{
+    transform: scale(1.1);
+    border: 5px solid rgb(201, 241, 241);
+    cursor: pointer;
+}
+.d2{
+    position:relative ;
+    left: 60%;
+    bottom: 110px;
+}
+.d3{
+     position:relative ;
+    left: 30%;
+    bottom: 100px;
+}
+.s2{
+    position: relative;
+    top: 100px;
+    width: 100%;
+    height: 700px;
+    background-color: #ffffff;
+}
+iframe{
+    width: 100%;
+    position: relative;
+    bottom: 410px;
+    height: 700px;
+}
+button{
+    border: none;
+    width: 5%;
+    background-color: azure;
+    position: relative;
+    left: 10%;
+    bottom: 35px;
+}
+.i1{
+    width: 100%;
+    position: relative;
+    left: 15%;
+
+
+}
+span{
+   font-size: large;
+   font-size: 25px;
+   color: #080a10;
+}

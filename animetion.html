@@ -1,0 +1,90 @@
+
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<title>Loading Animation</title>
+
+<style>
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #111827;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.loader {
+    position: relative;
+    width: 100px;
+    height: 100px;
+    animation: rotation 2s linear infinite;
+}
+
+.loader span {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    background: #00d9ff;
+    border-radius: 50%;
+    animation: pulse 1s ease-in-out infinite alternate;
+}
+
+.loader span:nth-child(1) {
+    top: 0;
+    left: 40px;
+}
+
+.loader span:nth-child(2) {
+    bottom: 0;
+    left: 0;
+    animation-delay: .3s;
+}
+
+.loader span:nth-child(3) {
+    bottom: 0;
+    right: 0;
+    animation-delay: .6s;
+}
+
+@keyframes rotation {
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes pulse {
+    to {
+        transform: scale(1.5);
+        opacity: .4;
+    }
+}
+
+p {
+    position: absolute;
+    margin-top: 150px;
+    color: white;
+    font-family: Arial;
+    letter-spacing: 3px;
+}
+</style>
+</head>
+
+<body>
+
+<div class="loader">
+    <span></span>
+    <span></span>
+    <span></span>
+</div>
+
+<p>LOADING...</p>
+
+</body>
+</html>
